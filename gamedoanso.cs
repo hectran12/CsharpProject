@@ -105,7 +105,7 @@ namespace GameDoanSo
                 switch (lose)
                 {
                     case 1:
-                        Console.Write("Bạn đưa cộng 50k , xin chúc mừng ");
+                        Console.Write("Bạn được cộng 50k , xin chúc mừng ");
                         money = money + 50000;
                         Console.WriteLine("|| số dư hiện tại: "+ money);
                         break;
