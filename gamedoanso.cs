@@ -40,7 +40,7 @@ namespace GameDoanSo
         static void Main (string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-            int mon1000010000;
+            int money = 10000;
             while (true)
             {
                 Console.Clear();
