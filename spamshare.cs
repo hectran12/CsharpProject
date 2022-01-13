@@ -23,7 +23,7 @@ namespace spamshare
         {
             for(int i = delay; i > 0; i--)
             {
-                Console.Write("\r Đang nghĩ , vui lòng đợi {0}\r", i);
+                Console.Write("\r Đang nghĩ , vui lòng đợi {0}  \r", i);
                 Thread.Sleep(1000);
             }
         }
@@ -131,7 +131,6 @@ namespace spamshare
                                 if(numacc == doinick)
                                 {
                                     numacc = 0;
-                                    Console.WriteLine("Đang chuyển acc");
                                     break;
                                 }
 
